@@ -30,23 +30,23 @@ function gotResults(error, results) {
         img = document.getElementById('animal_image');
         
         if (results[0].label == "Barking") {
-            img.src = 'dog image.jpg';
+            img.src = 'dog_image.jpg';
             dog = dog+ 1;
         }
         else if (results[0].label == "Meowing") {
-            img.src = 'cat image.jpg';
+            img.src = 'cat_image.jpg';
             cat = cat + 1;
         }
         else if (results[0].label ==  "Roaring") {
-            img.src = 'lion image.jpg';
+            img.src = 'lion_image.jpg';
             lion = lion + 1;
         }
         else if (results[0].label ==  "Mooing") {
-            img.src = 'cow image.jpg';
+            img.src = 'cow_image.png';
             cow = cow + 1;
         }
         else {
-            img.src = 'Cartoon Ear.jpg';
+            img.src = 'cartoon_ear_image.jpg';
          }
     }
 }
